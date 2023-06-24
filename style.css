@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+}
+.top-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 600px;
+  height: 100%;
+}
+
+
+[class^="tile-"] {
+  width: 200px;
+  height: 200px;
+  font-size: 50px;
+  font-weight: 800;
+  cursor: pointer;
+}
