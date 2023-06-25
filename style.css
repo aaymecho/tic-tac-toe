@@ -4,6 +4,7 @@ h1 {
 .top-container {
   max-width: 600px;
   margin: 0 auto;
+  display: none;
 }
 
 .container {
@@ -18,4 +19,21 @@ h1 {
   font-size: 50px;
   font-weight: 800;
   cursor: pointer;
+  border: solid;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+}
+
+.reset {
+  display: none;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
 }
